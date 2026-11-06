@@ -1,0 +1,78 @@
+.button.pl-draft-button,
+.button.pl-create-draft-button {
+	display: flex;
+	padding: 2px 12px;
+	width: 100%;
+	max-width: 185px;
+	min-height: 38px;
+}
+
+.button.pl-draft-button span,
+.button.pl-create-draft-button span {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.button.pl-draft-button:disabled {
+	pointer-events: none;
+}
+
+.pl-image {
+	width: 25px;
+	height: 25px;
+	padding-top: 2px;
+	display: block;
+	padding-right: 3px;
+}
+
+@media only screen and (max-width: 1350px) {
+	.button.pl-draft-button,
+	.button.pl-create-draft-button {
+		min-width: unset;
+		width: 100%;
+		padding: 4px 0;
+	}
+}
+
+.pl-label-actions {
+	display: inline-flex;
+	gap: 4px;
+	flex-wrap: wrap;
+}
+
+.pl-label-actions .button {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	min-height: 28px;
+	height: 28px;
+	padding: 0 10px;
+	line-height: 1;
+}
+
+.pl-label-actions .dashicons {
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+	line-height: 1;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pl-label-action-text {
+	line-height: 1;
+}
+
+.pl-label-actions.pl-label-printed .button {
+	opacity: 0.55;
+	color: #555;
+	border-color: #ccc;
+	background: #f1f1f1;
+}
+
+.pl-label-actions.pl-label-printed .button:hover {
+	opacity: 0.8;
+}
+

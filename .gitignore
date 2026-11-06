@@ -1,0 +1,16 @@
+# Configuración privada
+wp-config.php
+
+# Archivos temporales
+*.log
+*.sql
+*.zip
+*.tar
+*.gz
+
+# Copias de seguridad
+backup/
+backups/
+
+# Git
+.git/
